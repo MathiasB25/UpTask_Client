@@ -38,13 +38,13 @@ const Project = () => {
 
     useEffect( () => {
         socket.on('addTask', (task) => {
-            if (task.project === proyect._id) {
+            if (task.project._id === proyect._id) {
                 submitProjectTasks(task)
             }
         })
 
         socket.on('deletedTask', (task) => {
-            if (task.project === proyect._id) {
+            if (task.project._id === proyect._id) {
                 socketDeleteTask(task)
             }
         })
