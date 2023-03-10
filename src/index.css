@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* Loading component */
+
+.font {
+    font-family: 'Outfit', sans-serif;
+}
 
 .sk-chase {
     width: 40px;
