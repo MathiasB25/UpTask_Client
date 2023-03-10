@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom"
 import useProjects from "../hooks/useProjects"
 import useAdmin from '../hooks/useAdmin'
 import TaskModal from "./TaskModal"
-import TaskDeleteModal from "./taskDeleteModal"
+import TaskDeleteModal from "./TaskDeleteModal"
 import Task from "./Task"
 import Collaborator from "./Collaborator"
 import CollaboratorModal from "./CollaboratorModal"
